@@ -1,5 +1,5 @@
 {
-    "name": "GayHubMod",
+    "name": "GayHub",
     "version": "1.5.7",
     "manifest_version": 2,
     "description": "An awesome chrome extension for github",
@@ -28,6 +28,9 @@
         "matches": [
             "*://github.com/*",
             "*://gist.github.com/*"
+        ],
+        "exclude_matches": [
+            "*://github.com/*compare/*...*"
         ],
         "css": [
             "styles/overView.css",
